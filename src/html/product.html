@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>产品展示-飞速</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <!-- Bootstrap -->
+    <link href="lib/css/bootstrap.min.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!-- hack -->
+    <!--[if lt IE 9]>
+        <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script type="text/javascript" src="lib/js/jquery-3.3.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="lib/js/bootstrap.min.js"></script>
+    <!-- 导入模板插件 -->    
+    <script type="text/javascript" src="lib/js/template-native.js"></script>    
+</head>
+<body>
+    <!-- 顶部通栏 -->
+    <div class="header">
+<%= require('html-loader!./common/header.html') %>
+    </div>
+     
+    <!-- 产品展示容器 -->
+    <div class="product container-fluid"></div>
+    <!-- 产品展示区域模板 -->
+<%= require('html-loader?-attrs!./common/template_02.html') %>
+
+    <!-- 底栏 -->
+    <div class="footer">
+<%= require('html-loader?-attrs!./common/footer.html') %>
+    </div>
+</body>
+</html>

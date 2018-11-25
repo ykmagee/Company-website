@@ -1,0 +1,394 @@
+body {
+  background-color: #cddcdc;
+}
+video::-webkit-media-controls {
+  display: none !important;
+}
+/* CSS3动画效果 */
+body.fp-viewing-page1 #fullpage .section .contentV h3 {
+  transform: translateY(0);
+}
+body.fp-viewing-page1 #fullpage .section .contentV .upon p {
+  opacity: 1;
+}
+body.fp-viewing-page2 #fullpage .section2 .content h3,
+body.fp-viewing-page2 #fullpage .section5 .content h3,
+body.fp-viewing-page2 #fullpage .section7 .content h3,
+body.fp-viewing-page3 #fullpage .section3 .content h3 {
+  transform: translateX(0);
+  opacity: 1;
+}
+/* 解决方案页面样式 */
+#fullpage {
+  padding-top: 80px;
+  color: #333;
+  text-align: center;
+}
+#fullpage .section .content {
+  width: 100%;
+  position: relative;
+  padding-top: 270px;
+}
+#fullpage .section .content h3 {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 130px;
+  font-size: 24px;
+  color: #222;
+  padding: 0px 8px;
+  opacity: 0;
+  transform: translateX(60%);
+  transition: all 1s;
+}
+#fullpage .section .content p {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 190px;
+  font-size: 16px;
+  padding: 0px 8px;
+}
+#fullpage .section .content img {
+  margin-bottom: 20px;
+}
+#fullpage .section .info {
+  width: 100%;
+  padding: 0 8px;
+  margin-bottom: 35px;
+}
+#fullpage .section .info table {
+  max-width: 820px;
+  margin: 0 auto;
+}
+#fullpage .section .info td {
+  font-size: 15px;
+  border-bottom: 1px solid #888;
+  border-right: 1px solid #888;
+  padding: 6px 8px;
+}
+#fullpage .section .info td:last-child {
+  border-right: none;
+}
+#fullpage .section .info thead td {
+  font-size: 16px;
+  font-weight: 600;
+}
+#fullpage .section .info tbody tr:last-child td {
+  border-bottom: none;
+}
+#fullpage .section .info span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #d63030;
+  color: #fff;
+  text-align: center;
+  line-height: 20px;
+  margin: 2px;
+}
+#fullpage .section .contentV {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+}
+#fullpage .section .contentV #myVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-size: cover;
+  object-fit: cover;
+  /*cover video background */
+  z-index: 3;
+}
+#fullpage .section .contentV .myVideo_bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+#fullpage .section .contentV .myVideo_bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#fullpage .section .contentV .upon {
+  position: absolute;
+  z-index: 4;
+  width: 100%;
+  left: 0;
+  top: 36%;
+  padding-top: 80px;
+}
+#fullpage .section .contentV .upon h3 {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 38px;
+  color: #fff;
+  padding: 0px 8px;
+  transform: translateY(-500px);
+  transition: all 1s;
+}
+#fullpage .section .contentV .upon p {
+  position: static;
+  line-height: 2;
+  font-weight: 300;
+  font-size: 22px;
+  padding: 0px 8px;
+  opacity: 0;
+  transition: all 1s 0.3s;
+}
+#fullpage .section .contentV .upon .imgBox {
+  width: 60%;
+  margin: 60px auto;
+  border-radius: 10px;
+  background-color: rgba(128, 150, 180, 0.4);
+}
+#fullpage .section .contentV .upon .imgBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#fullpage .section1 .contentV {
+  background: url(../images/solution/40G_02.jpg) no-repeat center / cover;
+}
+#fullpage .section1 .contentV .upon {
+  top: 13%;
+}
+#fullpage .section1 .contentV .upon h3 {
+  color: #333;
+}
+#fullpage .section1 .contentV .upon p {
+  color: #27b9c2;
+  color: #3cd58f;
+  font-size: 20px;
+  font-weight: 400;
+  width: 65%;
+  margin: 5px auto;
+}
+#fullpage .section1 .contentV .upon .p2 {
+  color: #333;
+}
+#fullpage .section1 .contentV .upon .txtBox {
+  width: 60%;
+  margin: 45px auto 0;
+  padding: 6px;
+  border-radius: 10px;
+  background-color: rgba(139, 227, 187, 0.6);
+}
+#fullpage .section1 .contentV .upon .txtBox p {
+  width: auto;
+  color: #333;
+}
+#fullpage .section_footer .footer {
+  min-height: 233px;
+}
+#fullpage .section5 .content {
+  padding-top: 190px;
+}
+#fullpage .section5 .content h3 {
+  top: 106px;
+}
+#fullpage .section5 .content p {
+  top: 150px;
+}
+#fullpage .section5 .content img {
+  margin-bottom: 12px;
+}
+#fullpage .section5 .info {
+  margin-bottom: 8px;
+}
+#fullpage .section6 .contentV .upon {
+  top: 13%;
+}
+#fullpage .section6 .contentV .upon .imgBox {
+  margin: 30px auto;
+}
+#fullpage .section6 .contentV .upon > img {
+  width: 42%;
+}
+@media (max-width: 1120px) {
+  #fullpage .section .content {
+    padding-top: 254px;
+  }
+  #fullpage .section .content h3 {
+    font-size: 20px;
+    top: 156px;
+  }
+  #fullpage .section .content p {
+    font-size: 15px;
+    top: 205px;
+  }
+  #fullpage .section .content img {
+    width: 100%;
+  }
+  #fullpage .section .info td {
+    font-size: 14px;
+  }
+  #fullpage .section .contentV .upon {
+    top: 30%;
+  }
+  #fullpage .section .contentV .upon h3 {
+    font-size: 32px;
+  }
+  #fullpage .section .contentV .upon .imgBox {
+    width: 78%;
+  }
+  #fullpage .section1 .contentV {
+    background-image: url(../images/solution/40G_03.jpg);
+  }
+  #fullpage .section1 .contentV .upon {
+    top: 16%;
+  }
+  #fullpage .section5 .content {
+    padding-top: 200px;
+  }
+  #fullpage .section5 .content h3 {
+    top: 116px;
+  }
+  #fullpage .section5 .content p {
+    top: 150px;
+  }
+  #fullpage .section5 .content img {
+    margin-bottom: 12px;
+  }
+  #fullpage .section5 .info {
+    margin-bottom: 8px;
+  }
+  #fullpage .section6 .contentV .upon {
+    top: 16%;
+  }
+  #fullpage .section6 .contentV .upon > img {
+    width: 78%;
+  }
+}
+@media (max-width: 767px) {
+  #fullpage .section .content {
+    padding-top: 226px;
+  }
+  #fullpage .section .content h3 {
+    font-size: 16px;
+    top: 106px;
+  }
+  #fullpage .section .content p {
+    font-size: 14px;
+    top: 152px;
+  }
+  #fullpage .section .info td {
+    font-size: 12px;
+    padding: 4px;
+  }
+  #fullpage .section .info thead td {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  #fullpage .section .contentV #myVideo {
+    padding-top: 50px;
+  }
+  #fullpage .section .contentV .upon {
+    top: 26%;
+    padding-top: 50px;
+  }
+  #fullpage .section .contentV .upon h3 {
+    font-size: 22px;
+  }
+  #fullpage .section .contentV .upon p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  #fullpage .section .contentV .upon .txtBox {
+    width: 80%;
+  }
+  #fullpage .section .contentV .upon .imgBox {
+    width: 90%;
+    margin-top: 40px;
+  }
+  #fullpage .section1 .contentV .upon {
+    top: 20%;
+  }
+  #fullpage .section1 .contentV .upon p {
+    width: 85%;
+  }
+  #fullpage .section_footer .footer {
+    min-height: 128px;
+  }
+  #fullpage .section5 .content p {
+    top: 145px;
+  }
+  #fullpage .section5 .info {
+    margin-bottom: 30px;
+  }
+  #fullpage .section6 .contentV .upon {
+    top: 20%;
+  }
+  #fullpage .section6 .contentV .upon > img {
+    width: 90%;
+  }
+  #fullpage .section7 .content {
+    padding-top: 208px;
+  }
+  #fullpage .section7 .content p {
+    top: 135px;
+  }
+  #fullpage .section7 .content img {
+    margin-bottom: 5px;
+  }
+  #fullpage .section7 .info {
+    margin-bottom: 8px;
+  }
+}
+@media (max-width: 350px) {
+  #fullpage .section7 .content {
+    padding-top: 225px;
+  }
+}
+#menu {
+  position: absolute;
+  top: 78px;
+  left: 12px;
+}
+#menu li {
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 8px;
+  display: inline-block;
+  margin-right: 6px;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.25);
+}
+#menu li a {
+  display: block;
+  padding: 5px 10px;
+  font-size: 15px;
+  color: #0569b4;
+}
+#menu li.hover {
+  background-color: #fff;
+}
+#menu li.hover a {
+  color: #bc39cb;
+}
+#menu li.active {
+  background-color: rgba(81, 125, 209, 0.95);
+}
+#menu li.active a {
+  color: #eee;
+}
+@media (max-width: 767px) {
+  #menu {
+    top: 62px;
+    left: 8px;
+  }
+  #menu li a {
+    padding: 4px 8px;
+    font-size: 14px;
+  }
+}

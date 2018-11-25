@@ -1,0 +1,136 @@
+/* 联系我们页面样式 */
+.service{
+	.banner{
+		width: 100%;
+		height: 460px;
+		margin-top: 60px;
+		background: url(../images/contact-bg.jpg) no-repeat center;
+		text-align: center;
+		color: #fff;
+		.title{
+			font-size: 40px;
+			font-weight: 500;
+			padding-top: 130px;
+		}
+		.line{
+			width: 130px;
+			height: 3px;
+			background-color: #fff;
+			margin: 20px auto;
+		}
+		.tel{
+			.tel_title{
+				font-size: 20px;
+			}
+			.tel_num{
+				a{
+					font-size: 20px;
+					color:#fff;
+				}
+			}
+		}
+	}
+
+	.content{
+		max-width: 1440px;
+		padding: 50px 0;
+		.content_left{
+			color: #333;
+			margin-bottom: 50px;
+			.title{
+				font-size: 20px;
+				padding-left: 15px;				
+			}
+			ul li{
+				padding-top: 20px;
+				p{
+					font-size: 14px;					
+					font-weight: 800;
+				}
+				span{
+					font-size: 13px;
+					color:#666;
+					display: inline-block;
+				}
+			}
+		}
+		.content_right{
+			color:#333;
+			&>div:first-child{margin-bottom: 50px;}
+			.title{
+				font-size: 20px;
+				padding-bottom: 20px;
+			}
+			.area{
+				margin-bottom: 8px;				
+				&>span{
+					font-size: 16px;
+					line-height: 1;
+					color:#0681d3;
+					display: block;
+					background-color: #dedede;
+					padding: 18px 5px;
+					border-radius: 5px;
+					cursor: pointer;
+					&::before{
+						padding-right: 5px;
+					}
+					i{
+						float: right;
+						margin-right: 5px;
+					}
+				}
+				.contact_phone{
+					display: none;
+					p{
+						padding: 8px 22px;
+						span{
+							font-size: 14px;
+							color:#555;
+							display: inline-block;
+							&:first-child{width: 65%;}														
+						}
+					}
+				}
+			}
+			.email{
+				padding-bottom: 12px;
+				p{
+					font-size: 15px;					
+					font-weight: 800;
+				}
+				span{
+					font-size: 14px;
+					color:#666;
+				}
+			}
+		}
+	}
+	@media (max-width: 767px){
+		.banner{
+			margin-top: 50px;
+			height: 280px;
+			.title{
+				padding-top: 80px;
+				font-size: 34px;
+			}
+		}
+		.content{
+			.content_left,.content_right{padding: 0;}
+			.content_left{
+				ul li{
+					padding-left: 10px;
+					padding-right: 10px;
+				}
+			}
+			.content_right{
+				.area .contact_phone p{
+					padding: 6px 18px;
+					span{						
+						&:first-child{width: 40%;}														
+					}
+				}
+			}
+		}		
+	}
+}

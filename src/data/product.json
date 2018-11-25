@@ -1,0 +1,98 @@
+[
+    {
+        "class":"optical_module",
+        "title":"光模块系列",            
+        "describe":"飞速(FS)一直专注于光模块&高速线缆研发、生产，品质保证，为客户提供系统的解决方案。<br>我们成立了全面专业的实验室检测中心，保证每一支光模块， 每一条高速线缆都能在客户的光纤连接应用中高效工作。",
+        "product":[
+            {
+                "img":"images/static/product/Interconnection_01.jpg",
+                "name":"100G QSFP28 SR4",           
+                "parameter":"型号名: QSFP28-SR4-100G<br>封装类型： QSFP28<br>速率： 103.1Gbps<br>波长： 850nm<br>传输距离： 100m<br>接口： MTP/MPO-12<br>激光器类型： VCSEL<br>光纤类型： 多模MMF",   
+            },
+            {
+                "img":"images/static/product/Interconnection_03.jpg",
+                "name":"10G SFP+ LR",           
+                "parameter":"型号名： SFP-10G-LR<br>封装类型： SFP+<br>速率： 10.3125Gbps<br>波长： 1310nm<br>传输距离： 10km<br>接口： LC双工<br>激光器类型： DFB 1310nm<br>光纤类型： SMF", 
+            },
+            {
+                "img":"images/static/product/Interconnection_04.jpg",
+                "name":"40G QSFP+ SR4",           
+                "parameter":"型号名： QSFP-SR4-40G<br>封装类型： QSFP+<br>速率： 41.25Gbps<br>波长： 850nm<br>传输距离： 150m<br>接口： MTP/MPO<br>激光器类型： VCSEL<br>光纤类型： MMF",   
+            },
+            {
+                "img":"images/static/product/Interconnection_06.jpg",
+                "name":"10G SFP+ 转 SFP+ DAC",           
+                "parameter":"<br>型号名： SFPP-PC02<br>速率： 10Gbps<br>接口类型： SFP+ 转 SFP+<br>线规： 30AWG(默认), 24AWG可选<br>线缆长度： 2m(6.56ft)",   
+            },
+            {
+                "img":"images/static/product/Interconnection_07.jpg",
+                "name":"40G QSFP+ 转 4*SFP+ DAC",           
+                "parameter":"<br>型号名： Q-4SPC02<br>速率： 40Gbps<br>接口类型： QSFP+ 转 4 SFP+<br>线规： 30AWG<br>线缆长度： 2m(6.56ft)",   
+            },
+            {
+                "img":"images/static/product/Interconnection_08.jpg",
+                "name":"10G SFP+ 转 SFP+ AOC",           
+                "parameter":"<br>型号名： SFP-10G-AOC3<br>速率： 10Gbps<br>接口类型： SFP+ 转 SFP+<br>光缆类型： 有源光缆<br>光缆长度： 3m",   
+            }
+        ]           
+    },
+    {
+        "class":"cabling_system",
+        "title":"综合布线系列",            
+        "describe":"飞速(FS)一直专注于光模块&高速线缆研发、生产，品质保证，为客户提供系统的解决方案。<br>我们成立了全面专业的实验室检测中心，保证每一支光模块， 每一条高速线缆都能在客户的光纤连接应用中高效工作。",
+        "product":[
+            {
+                "img":"images/static/product/20181013_01.jpg",
+                "name":"FHX 超高密度配线箱",           
+                "parameter":"型号名： FHX-1UFSP<br>光纤芯数： 最大144芯<br>尺寸(HxWxD)： 44x446x500mm<br>安装方式： 19&quot;标准机架<br>材质： 铝<br>RoHS标准： 符合",   
+            },
+            {
+                "img":"images/static/product/20181013_02.jpg",
+                "name":"FHX MTP/MPO 光纤配线盒",           
+                "parameter":"型号名： FHX-1U-1MTP3LCQOM4A<br>光纤芯数： 12LC-1MTP<br>适配器类型： 3-LC四工<br>光纤类型： OM4,Type A<br>尺寸(HxWxD)： 11.3x92x171.2mm<br>应用： FHX系列机箱", 
+            },
+            {
+                "img":"images/static/product/20181013_03.jpg",
+                "name":"FHX LC SC MTP 适配器面板",           
+                "parameter":"型号名： FHX-FAP3LCQ10GMM<br>光纤芯数： 12<br>适配器类型： 3-LC四工<br>光纤类型： OM3/OM4<br>尺寸(HxWxD)： 11.3x92x133.3mm<br>应用： FHX系列机箱",   
+            },
+            {
+                "img":"images/static/product/20181013_04.jpg",
+                "name":"FHD 光纤配线箱",           
+                "parameter":"型号名： FHD-1UFCE<br>光纤芯数： 最大96芯<br>尺寸(HxWxD)： 44x448x467.5mm<br>安装方式： 19&quot;标准机架<br>材质： SPCC<br>RoHS标准： 符合",   
+            },
+            {
+                "img":"images/static/product/20181013_05.jpg",
+                "name":"FHD MTP/MPO 光纤配线盒",           
+                "parameter":"型号名： FHD-1MTP6LCDOM4A<br>光纤芯数： 12LC-1MTP<br>适配器类型： 6-LC双工<br>光纤类型： OM4,Type A<br>尺寸(HxWxD)： 35x109x118mm<br>应用： FHD系列机箱",   
+            },
+            {
+                "img":"images/static/product/20181013_06.jpg",
+                "name":"FHD LC SC MTP 适配器面板",           
+                "parameter":"型号名： FHD-FAP12LCDXSMF<br>光纤芯数： 24<br>适配器类型： 12-LC双工<br>光纤类型： OS2单模<br>尺寸(WxH)： 109x35mm<br>应用： FHD系列机箱",   
+            }
+        ]           
+    },
+    {
+        "class":"switches",
+        "title":"交换机系列",            
+        "describe":"飞速(FS)一直专注于光模块&高速线缆研发、生产，品质保证，为客户提供系统的解决方案。<br>我们成立了全面专业的实验室检测中心，保证每一支光模块， 每一条高速线缆都能在客户的光纤连接应用中高效工作。",
+        "product":[
+            {
+                "img":"images/static/product/20181013_07.jpg",
+                "name":"1G 千兆交换机",           
+                "parameter":"型号名： S2800-24T4F<br>交换机类型： Layer2<br>交换机容量： 56Gbps<br>转发率： 41.7Mpps<br>闪存： 16MB<br>功耗： ≤20W",   
+            },
+            {
+                "img":"images/static/product/20181013_08.jpg",
+                "name":"10G 万兆交换机",           
+                "parameter":"型号名： S5800-8TF12S<br>交换机类型： Layer2/3<br>交换机容量： 240Gbps<br>转发率： 178.57Mpps<br>闪存： 2GB<br>功耗： 65W", 
+            },
+            {
+                "img":"images/static/product/20181013_09.jpg",
+                "name":"40G 交换机",           
+                "parameter":"型号名： S5850-48T4Q<br>交换机类型： Layer2/3<br>交换机容量： 1.28Tbps<br>转发率： 952.32Mpps<br>闪存： 8GB<br>功耗： 350W",   
+            }
+        ]           
+    }
+]

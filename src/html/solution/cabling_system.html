@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>光模块解决方案-飞速</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../lib/css/bootstrap.min.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!-- hack -->
+    <!--[if lt IE 9]>
+        <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="../lib/css/fullpage.min.css">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script rel="text/javascript" src="../lib/js/jquery-3.3.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script rel="text/javascript" src="../lib/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../lib/js/scrolloverflow.min.js"></script>
+    <script type="text/javascript" src="../lib/js/fullpage.min.js"></script>
+    <script type="text/javascript" src="../lib/js/fullpage.extensions.min.js"></script>   
+</head>
+<body>
+    <!-- 顶部通栏 -->
+    <div class="header">
+        <%= require('html-loader!../common/header.html') %>
+    </div>
+         
+    <!-- 解决方案 -->
+    <div id="fullpage" class="solution container-fluid">        
+        <!-- 第一屏 -->
+        <div class="section section4">
+            <div class="contentV">
+                <!-- <video id="myVideo" class="hidden-xs" loop muted data-autoplay>
+                    <source src="<%= require('../../images/solution/series.mp4') %>" type="video/mp4">
+                    <source src="images/solution/series.mp4" type="video/webm">
+                </video> -->
+                <!-- 视频加载不了则会显示图片 -->
+                <div class="myVideo_bg">
+                    <img src="<%= require('../../images/solution/series_bg.jpg') %>">
+                </div>
+                <div class="upon">
+                    <h3>数据中心综合布线系统</h3>
+                    <p class="p1">飞速(FS)为客户提供全套线缆管理产品，包括常规光纤跳线、MTP/MPO光纤跳线组件、FHD系列和FHX系列超高密度配线箱等产品。</p>
+                    <p class="p2">帮助您的网络基础构架实现体系化管理，使机房更具高密度性、整洁性和灵活性。</p>
+                    <!-- <div class="imgBox">
+                        <img src="images/solution/S-Series_Switches.png">
+                    </div>   -->                      
+                </div>
+            </div>
+        </div>
+
+        <!-- 第二屏 -->
+        <div class="section section5">
+            <div class="content">
+                <h3>高速网络综合布线解决方案</h3>
+                <p>利用MTP/MPO 高密度光纤配线盒、72芯 MTP光纤跳线和壁挂式配线箱，能够实现整洁、方便且灵活的高速网络。具体连接方案如下图所示。</p>
+                <img src="<%= require('../../images/solution/Solutions_HDHZ_pic01.jpg') %>">
+                <div class="info">
+                    <table width="100%" cellspacing="0" cellpadding="0" align="center" bgcolor="yellow">
+                        <thead >
+                            <tr>
+                                <td width="11%" align="center">序号</td>
+                                <td width="15%" align="center">类别</td>
+                                <td align="left">产品描述</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td align="center">
+                                    <span>1</span>
+                                </td>
+                                <td align="center">光模块</td>
+                                <td align="left">SFP+万兆光模块 1310nm 10km</td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <span>2</span>
+                                </td>
+                                <td align="center">光纤跳线</td>
+                                <td align="left">1m LC/UPC - LC/UPC 双工单模 OS2 弯曲不敏感光纤跳线 - 2.0mm PVC(OFNR)</td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <span>3</span>
+                                    <span>9</span>
+                                </td>
+                                <td align="center">光纤配线盒</td>
+                                <td align="left">12芯 MTP-12xLC双工万兆单模(OS2) 光纤配线盒</td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <span>4</span>
+                                </td>
+                                <td align="center">1U机箱</td>
+                                <td align="left">1U机架式光纤配线箱</td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <span>5</span>
+                                </td>
+                                <td align="center">光纤跳线</td>
+                                <td align="left">1m 12芯 MTP(母)单模OS2主干光纤跳线， 极性A，低插损，Plenum (OFNP阻燃)</td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <span>6</span>
+                                </td>
+                                <td align="center">壁挂机箱</td>
+                                <td align="left">双开门壁挂式光纤配线箱</td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <span>7</span>
+                                </td>
+                                <td align="center">适配器面板</td>
+                                <td align="left">12×MTP 水平光纤适配器面板</td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <span>8</span>
+                                </td>
+                                <td align="center">光纤跳线</td>
+                                <td align="left">40m 72芯 MTP(母)单模OS2主干光纤跳线， 极性A，低插损，Plenum(OFNP阻燃)</td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <span>10</span>
+                                </td>
+                                <td align="center">1U机箱</td>
+                                <td align="left">1U机架式高密度光纤配线箱</td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <span>11</span>
+                                </td>
+                                <td align="center">光纤跳线</td>
+                                <td align="left">1m LC-LC 单模OS2光纤跳线，推拉式一管双芯</td>
+                            </tr>                        
+                        </tbody>                
+                    </table>
+                </div>    
+            </div>    
+        </div>        
+
+        <!-- 第三屏 底栏 -->
+        <div class="section section_footer fp-auto-height">
+            <div class="footer">
+                <%= require('html-loader?-attrs!../common/footer.html') %>
+            </div>
+        </div>         
+        
+    </div>
+    <div class="menu">
+        <ul id="menu">
+            <li><a href="optical_module.html">光模块</a></li>
+            <li class="active"><a href="cabling_system.html">综合布线</a></li>
+            <li><a href="switches.html">交换机</a></li>
+           <!--  <li data-menuanchor="page1" class="active"><a href="#page1">光模块</a></li>
+            <li data-menuanchor="page2"><a href="#page2">综合布线</a></li>
+            <li data-menuanchor="page3"><a href="#page3">交换机</a></li> -->
+            <!-- <li data-menuanchor="page4"><a href="#page4">其他</a></li> -->
+        </ul>
+    </div>
+</body>
+</html>

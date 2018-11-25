@@ -1,0 +1,31 @@
+<!-- product页面产品展示模板 -->
+<script type="text/template" id="template">
+    <% for(var i=0;i<items.length;i++){ %>                
+        <div class="<%= items[i].class %>">                
+            <div class="product_title">
+                <h2><%= items[i].title %></h2>
+                <p><%=# items[i].describe %></p>
+            </div>            
+            <div class="container-fluid">
+                <div class="row">
+                    <ul class="clearfix">
+                        <% for(var j=0;j<items[i].product.length;j++){ %>
+                            <li class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+                                <div>
+                                    <div class="front">
+                                        <img src="<%= items[i].product[j].img %>" alt="<%= items[i].product[j].name %>">
+                                        <p><%=# items[i].product[j].name %></p>
+                                    </div>
+                                    <div class="back">
+                                        <h2>参数</h2>
+                                        <p><%=# items[i].product[j].parameter %></p>
+                                    </div>  
+                                </div>                                                    
+                            </li>
+                        <% } %>
+                    </ul>
+                </div>
+            </div>            
+        </div>        
+    <% } %>
+</script>

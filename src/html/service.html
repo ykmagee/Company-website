@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>在线客服-飞速</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <!-- Bootstrap -->
+    <link href="lib/css/bootstrap.min.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!-- hack -->
+    <!--[if lt IE 9]>
+        <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script type="text/javascript" src="lib/js/jquery-3.3.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="lib/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- 顶部通栏 -->
+    <div class="header">
+<%= require('html-loader!./common/header.html') %>
+    </div>
+     
+    <!-- 客服中心 -->
+    <div class="service container-fluid">
+        <div class="banner">
+            <div class="title">联系我们</div>
+            <div class="line"></div>
+            <div class="tel">
+                <span class="tel_title">销售热线：</span>
+                <span class="tel_num">
+                    <a href="tel:4008-652-852">4008-652-852</a>
+                </span>
+            </div>
+        </div>
+        <div class="content container-fluid">
+            <div class="row">
+                <div class="col-md-4 content_left">
+                    <div class="title">办公地点</div>                    
+                    <ul class="row">
+                        <li class='col-md-12 col-sm-6 col-xs-6'>
+                            <p>深圳总部（中国）</p>
+                            <span>地址: 深圳市南山区海天二路易思博软件大厦2702 </span><br>
+                            <span>电话: +86(755)8357 1351</span>
+                        </li>
+                        <li class='col-md-12 col-sm-6 col-xs-6'>
+                            <p>武汉分部（中国）</p>
+                            <span>地址: 武汉市洪山区光谷软件园D座光谷联合</span><br>
+                            <span>电话: +86 (027) 8775 5175 </span>
+                        </li>
+                        <li class='col-md-12 col-sm-6 col-xs-6'>
+                            <p>北美（美国）</p>
+                            <span>地址：820 SW 34th Street Bldg W7 Suite H, Renton, WA 98057,United States</span><br>
+                            <span>电话: +1 (877) 205 5306</span>
+                        </li>
+                        <li class='col-md-12 col-sm-6 col-xs-6'>
+                            <p>慕尼黑（德国）</p>
+                            <span>地址：Building 7,NOVA Neufahrn Gewerbepark,Am Gfild 1-11,85375, Neufahrn bei Freising.</span><br>
+                            <span>电话: +49(0)8165 9904 326</span>
+                        </li>
+                    </ul>                    
+                </div>
+                <div class="col-md-8 content_right">
+                    <div class="col-lg-8">
+                        <div class="title">全球客服热线</div>
+                        <!-- <div class="area">
+                            <span>亚洲</span>
+                            <div class="contact_phone">
+                                <div class="clearfix">
+                                    <p class="pull-left">中国大陆</p>
+                                    <p class="pull-right">4008-652-852</p>
+                                </div>
+                                <div class="clearfix">
+                                    <p class="pull-left">中国香港</p>
+                                    <p class="pull-right">+(852) 5808 7203</p>
+                                </div>
+                                <div class="clearfix">
+                                    <p class="pull-left">中国台湾</p>
+                                    <p class="pull-right">+886 (2) 5592 4011</p>
+                                </div>
+                                <div class="clearfix">
+                                    <p class="pull-left">新加坡</p>
+                                    <p class="pull-right">+(65) 3163 0003</p>
+                                </div>
+                            </div>
+                        </div> -->
+                        <div class="area">
+                            <span class="glyphicon glyphicon-earphone">亚洲<i class="glyphicon glyphicon-menu-down"></i></span>
+                            <div class="contact_phone">
+                                <p>
+                                    <span>中国大陆</span>
+                                    <span>4008-652-852</span>
+                                </p>
+                                <p>
+                                    <span>中国香港</span>
+                                    <span>+(852) 5808 7203</span>
+                                </p>
+                                <p>
+                                    <span>中国台湾</span>
+                                    <span>+886 (2) 5592 4011</span>
+                                </p>
+                                <p>
+                                    <span>新加坡</span>
+                                    <span>+(65) 3163 0003</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="area">
+                            <span class="glyphicon glyphicon-earphone">北美<i class="glyphicon glyphicon-menu-down"></i></span>
+                            <div class="contact_phone">
+                                <p>
+                                    <span>美国</span>
+                                    <span>+1 (877) 205 5306</span>
+                                </p>
+                                <p>
+                                    <span>墨西哥</span>
+                                    <span>+52 (55) 4169 2630</span>
+                                </p>
+                                <p>
+                                    <span>加拿大</span>
+                                    <span>+1 (647) 243 6342</span>
+                                </p>                               
+                            </div>
+                        </div>
+                        <div class="area">
+                            <span class="glyphicon glyphicon-earphone">欧洲<i class="glyphicon glyphicon-menu-down"></i></span>
+                            <div class="contact_phone">
+                                <p>
+                                    <span>英国</span>
+                                    <span>+44 (020) 3287 6810</span>
+                                </p>
+                                <p>
+                                    <span>法国</span>
+                                    <span>+33 (1) 82 884 336</span>
+                                </p>
+                                <p>
+                                    <span>荷兰</span>
+                                    <span>+31 (20) 241 4029</span>
+                                </p>
+                                <p>
+                                    <span>德国</span>
+                                    <span>+49(0)8165 9904 326</span>
+                                </p>
+                                <p>
+                                    <span>西班牙</span>
+                                    <span>+34 (91) 123 7299</span>
+                                </p>
+                                <p>
+                                    <span>俄罗斯</span>
+                                    <span>+7 (499) 643 4876</span>
+                                </p>
+                            </div>
+                        </div>                        
+                        
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="title">电子邮件</div>
+                        <div class="email">
+                            <p>客户服务</p>
+                            <span>service@feisu.com</span>
+                        </div>
+                        <div class="email">
+                            <p>技术支持</p>
+                            <span>support@feisu.com</span>
+                        </div>
+                        <div class="email">
+                            <p>CEO</p>
+                            <span>daniel@fs.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    <!-- 底栏 -->
+    <div class="footer">
+<%= require('html-loader?-attrs!./common/footer.html') %>
+    </div>
+</body>
+</html>

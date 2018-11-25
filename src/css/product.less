@@ -1,0 +1,99 @@
+body{background-color: #cddcdc;}
+/* 产品展示页面样式 */
+.product{
+	text-align: center;
+	margin-top: 60px;
+	// margin: 0 auto;
+	max-width: 1440px;
+	&>div{
+		padding: 0 10px 40px 10px;
+		margin-top: 20px;
+		border-bottom: 1px dashed #888;
+	}
+	// &>div:nth-child(2n){background-color: rgb(230, 230, 230);}
+	// &>div:nth-child(2n+1){background-color: rgb(225, 225, 225);}
+	&>div:last-child{border-bottom: none;}	
+	.product_title{
+		h2{
+			padding: 20px;
+			font-size: 34px;
+			color: #333;
+		}
+		p{
+			font-size: 18px;
+			color: #444;
+			line-height: 1.6;
+		}		
+	}
+	@media (max-width: 1500px){
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	@media (max-width: 767px){
+		margin-top: 50px;
+		&>div{
+			padding-bottom: 20px;
+			margin-top: 10px;
+		}
+		.product_title{
+			h2{font-size: 22px;}
+			p{font-size: 14px;}
+		}
+	}
+	.container-fluid{
+		margin: 15px 0;		
+	}
+	ul{			
+		li{
+			padding: 5px;
+			&>div{
+				position: relative;
+				background-color: #fff;
+				border-radius: 10px;
+				overflow: hidden;
+				box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.35);
+				.front{
+					img{width: 76%;}
+					p{
+						padding: 15px 0;
+						display: block;
+						height: 70px;
+						font-size: 18px;
+					}			
+				}				
+				.back{
+					position: absolute;
+					top: 0;
+					right: 0;
+					width: 100%;
+					height: 100%;
+					border-radius: 10px;
+					// background-color: #402e82;
+					// background-color: #5b49a0;
+					background-color: #705eb8;
+					color:#fff;
+					opacity: 0;
+					transition: opacity 0.4s;
+					&.hover{
+						opacity: 0.85;
+					}
+					h2{
+						font-size: 22px;
+						font-weight: 600;
+						padding: 15px;
+					}
+					p{
+						font-size: 16px;
+						line-height: 1.5;
+					}
+				}
+				@media (max-width: 767px){
+					.front img{width: 100%;}
+					.front p{font-size: 14px;}
+					.back p{font-size: 12px;font-weight: 300;line-height: 1.4;}
+					.back h2{font-size: 14px;font-weight: 500;padding: 5px;}
+				}	
+			}					
+		}
+	}
+}
