@@ -2,7 +2,7 @@
 
 基于jQuery+bootstrap+webpack制作的一个响应式布局的公司官网，同时适配PC端和移动端。
 
-### 项目地址：http://www.ykit.xyz
+### 项目地址：http://fs.ykit.xyz
 
 ### 准备环境 
 
